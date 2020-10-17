@@ -78,7 +78,7 @@
 			img.src = IMAGE_PATH + '/help.png';
 		}
 		
-		editorUi.actions.addAction('new...', function()
+		editorUi.actions.addAction('new2...', function()
 		{
 			var compact = editorUi.isOffline();
 			var dlg = new NewDialog(editorUi, compact, !(editorUi.mode == App.MODE_DEVICE && 'chooseFileSystemEntries' in window));
