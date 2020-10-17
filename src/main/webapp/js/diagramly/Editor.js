@@ -21,7 +21,7 @@
 	/**
 	 * Specifies the app name. Default is document.title.
 	 */
-	Editor.prototype.appName = 'diagrams.net';
+	Editor.prototype.appName = 'diagrams.net2';
 		
 	/**
 	 * Known file types.
