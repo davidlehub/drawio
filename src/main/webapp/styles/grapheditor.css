@@ -1,6 +1,6 @@
 .geEditor {
 	font-family:Helvetica,Arial,sans-serif;
-	font-size:14px;
+	font-size:24px;
 	border:none;
 	margin:0px;
 }
@@ -249,7 +249,7 @@
 	vertical-align:middle;
 }
 .geMenubarContainer .geItem, .geToolbar .geItem {
-	padding:16px 6px 6px 9px;
+	padding:6px 6px 6px 9px;
 	cursor:default;
 }
 .geMenubarContainer .geItem:hover {
