@@ -249,7 +249,7 @@
 	vertical-align:middle;
 }
 .geMenubarContainer .geItem, .geToolbar .geItem {
-	padding:6px 6px 6px 9px;
+	padding:16px 6px 6px 9px;
 	cursor:default;
 }
 .geMenubarContainer .geItem:hover {
