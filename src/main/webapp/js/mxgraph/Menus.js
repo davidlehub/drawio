@@ -721,7 +721,7 @@ Menus.prototype.addInsertTableItem = function(menu, insertFn, parent)
 	elt2.firstChild.appendChild(picker);
 	
 	var label = document.createElement('div');
-	label.style.padding = '4px';
+	label.style.padding = '40px';
 	label.style.fontSize = Menus.prototype.defaultFontSize + 'px';
 	label.innerHTML = '1x1';
 	elt2.firstChild.appendChild(label);
