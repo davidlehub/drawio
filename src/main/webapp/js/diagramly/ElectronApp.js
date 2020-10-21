@@ -200,9 +200,9 @@ mxStencilRegistry.allowEval = false;
 		}));
 		
 		// Replaces file menu to replace openFrom menu with open and rename downloadAs to export
-		this.put('file', new Menu(mxUtils.bind(this, function(menu, parent)
+		this.put('file4', new Menu(mxUtils.bind(this, function(menu, parent)
 		{
-			this.addMenuItems(menu, ['new', 'open'], parent);
+			this.addMenuItems(menu, ['new4', 'open'], parent);
 			this.addSubmenu('openRecent', menu, parent);
 			this.addMenuItems(menu, ['-', 'synchronize', '-', 'save', 'saveAs', '-', 'import'], parent);
 			this.addSubmenu('exportAs', menu, parent);
