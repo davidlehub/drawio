@@ -4066,7 +4066,7 @@ HoverIcons.prototype.init = function()
 	var graphClick = this.graph.click;
 	this.graph.click = mxUtils.bind(this, function(me)
 	{
-		// alert('hello world!'); //TamAdded
+		alert('hello world!'); //TamAdded
 		
 		graphClick.apply(this.graph, arguments);
 		
